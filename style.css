@@ -1,0 +1,41 @@
+body {
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .heading{
+     background-color: lightblue;
+     font-size: 30px;
+  }
+  #sub-heading{
+   background-color: lightblue;
+  }
+  #object-heading{
+      font-weight: bold;
+      background-color: #04CAB2;
+      border-radius: 20cm;
+      width: 20%;
+      font-size: 25px;
+  }
+  #start{
+      background-color: lightgreen;
+     font-size: 30px; 
+     border-radius: 20px;
+  }
+  #object-input{
+      width: 40%;
+  }
+  canvas{
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-top: 90px;
+  }
+  #status{
+    background-color: #348CEB;
+    border-radius: 20px;
+  }
+  #object_status{
+    background-color:green;
+    border-radius: 20px;
+  }

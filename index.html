@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  <script src="main.js"></script>
+    <title>Project-135</title>
+</head>
+<body background="bg.jpg">
+    <center>
+    <h3 class="heading">
+        AI Object Finder
+    </h3>
+    <h5 id="sub-heading"></h5>The input name which you will give should match the names present in CoCo model then only it will detect</h5>
+    <p id="object-heading">Object Name:</p>
+    <input id="object_input">
+    <br>
+    <br>
+    <button id="start" onclick="start()">Start</button>
+    <br>
+    <br>
+    <label id="status"></label>
+<label id="object_status"></label>
+</center>
+</body>
+</html>
